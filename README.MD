@@ -12,14 +12,20 @@ Ok, let's start use lite-scroll
 
 The following example is easily instance
 ```javascript
-<script src="./litescroll.min.js"></script>
-<script>
-    var liteScroll = new LiteScroll({
-        block: document.getElementById('scroll_block'),
-        wrapper: document.getElementById('scroll_body'),
-    })
-    liteScroll.init()
-</script>
+<body>
+    <div id="scroll_block"></div>
+    <div id="scroll_wrapper">
+        <!-- content -->
+    </div>
+    <script src="./litescroll.min.js"></script>
+    <script>
+        var liteScroll = new LiteScroll({
+            block: document.getElementById('scroll_block'),
+            wrapper: document.getElementById('scroll_wrapper'),
+        })
+        liteScroll.init()
+    </script>
+</body>
 ```
 
 This is an example with whole param and there descript
@@ -33,7 +39,7 @@ This is an example with whole param and there descript
         block: document.getElementById('scroll_block'), 
         
         // A wrapper can scroll
-        wrapper: document.getElementById('scroll_body'),
+        wrapper: document.getElementById('scroll_wrapper'),
         
         // A scroll before roughScroll, and it's easy to scroll
         // default in 50
