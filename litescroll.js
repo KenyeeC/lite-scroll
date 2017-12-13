@@ -87,7 +87,8 @@
         this.block.style.cssText = 'height:' + this.rangePrefix(range) + ';-webkit-transition-duration: 0ms;transition-duration: 0ms;' + this.cssParam
     }
     /** 滑块复原 */
-    Scroller.prototype.revert = function (range = 0) {
+    Scroller.prototype.revert = function (range) {
+        range = range || 0
         this.block.style.cssText = 'height:' + this.rangePrefix(range) + ';-webkit-transition-duration: ' + this.revertSpeed + 'ms;transition-duration: ' + this.revertSpeed + 'ms;' + this.cssParam
     }
     return Scroller
