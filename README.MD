@@ -99,6 +99,5 @@ This is an example with whole param and there descript
     liteScroll.init()
 </script>
 ```
-
-
-
+## Demo
+![image](https://raw.githubusercontent.com/KenyeeC/lite-scroll/master/demo.gif)
