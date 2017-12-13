@@ -19,13 +19,18 @@ Lite-scroll 主要分为两部分，block和wrapper
             overflow: hidden;
             text-align: center;
         }
+        #scroll_wrapper{
+            width: 100%;
+            height: 500px;
+            background-color: #333;
+        }
     </style>
+    <!-- block -->
     <div id="scroll_block">
         <p>下拉刷新</p>
     </div>
-    <div id="scroll_wrapper">
-        <!-- content -->
-    </div>
+    <!-- wrapper -->
+    <div id="scroll_wrapper"></div>
     <script src="./litescroll.min.js"></script>
     <script>
         var liteScroll = new LiteScroll({

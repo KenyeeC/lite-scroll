@@ -19,13 +19,18 @@ The following example is easily instance
             overflow: hidden;
             text-align: center;
         }
+        #scroll_wrapper{
+            width: 100%;
+            height: 500px;
+            background-color: #333;
+        }
     </style>
+    <!-- block -->
     <div id="scroll_block">
         <p>pull to refresh</p>
     </div>
-    <div id="scroll_wrapper">
-        <!-- content -->
-    </div>
+    <!-- wrapper -->
+    <div id="scroll_wrapper"></div>
     <script src="./litescroll.min.js"></script>
     <script>
         var liteScroll = new LiteScroll({
