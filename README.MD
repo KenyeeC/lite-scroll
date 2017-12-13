@@ -11,7 +11,7 @@ Ok, let's start use lite-scroll
 #### Broswer
 
 The following example is easily instance
-```javascript
+```html
 <body>
     <div id="scroll_block"></div>
     <div id="scroll_wrapper">
