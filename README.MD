@@ -23,7 +23,8 @@ The following example is easily instance
 ```
 
 This is an example with whole param and there descript
-```javascrpit
+
+```javascript
 <script src="./litescroll.min.js"></script>
 <script>
     var liteScroll = new LiteScroll({
