@@ -13,7 +13,16 @@ Ok, let's start use lite-scroll
 The following example is easily instance
 ```html
 <body>
-    <div id="scroll_block"></div>
+    <style>
+        #scroll_block{
+            height: 0px;
+            overflow: hidden;
+            text-align: center;
+        }
+    </style>
+    <div id="scroll_block">
+        <p>pull to refresh</p>
+    </div>
     <div id="scroll_wrapper">
         <!-- content -->
     </div>
