@@ -1,0 +1,22 @@
+{
+  "name": "lite-scroll",
+  "version": "1.0.0",
+  "description": "a very lite scroll for browser",
+  "main": "litescroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenyeeC/lite-scroll.git"
+  },
+  "keywords": [
+    "scroll"
+  ],
+  "author": "kenyeecheung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KenyeeC/lite-scroll/issues"
+  },
+  "homepage": "https://github.com/KenyeeC/lite-scroll#readme"
+}
