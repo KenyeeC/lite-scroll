@@ -37,7 +37,7 @@ The following example is easily instance
 </body>
 ```
 
-This is an example with whole param and there descript
+This is an example with whole param and there descriptions
 
 ```javascript
 <script src="./litescroll.min.js"></script>
